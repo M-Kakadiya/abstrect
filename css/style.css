@@ -13,7 +13,7 @@ body{
 }
 
 .main_bg_img {
-    background-image: url(/image/background-grediant.png);
+    background-image: url(../image/background-grediant.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #070F12;
@@ -27,17 +27,19 @@ a{
 }
 
 a:hover{
-    font-size: 18px;
     background: var(--cyber-prime, linear-gradient(163deg, #009BFB 0%, #00FFD1 100%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 /* navbar css */
-
+.navbar-nav{
+    padding: 0 20px;
+}
 .navbar .navbar-nav .nav-item {
     position: relative;
-  }
+    padding: 15px 15px;
+}
 .navbar .navbar-nav .nav-item::after {
     position: absolute;
     bottom: 0;
@@ -60,7 +62,7 @@ a:hover{
   }
 
 .navbar-expand-lg .navbar-nav .nav-link{
-    padding-right:40px;
+    padding:0 !important;
 
 }
 .nav-link{
@@ -145,7 +147,7 @@ a:hover{
     
 }
 .navbar-toggler-icon{
-    background-image: url(/image/menu.svg);
+    background-image: url(../image/menu.svg);
     background-repeat: no-repeat;
 
 }
@@ -255,8 +257,8 @@ p{
 .padding_l_20{
     padding-left: 20px;
 }
-.padding_20{
-    padding: 20px;
+.padding_18{
+    padding: 18px;
 }
 
 .padding_rl_20{
@@ -283,6 +285,9 @@ p{
     margin-top: 30px;
 }
 
+.margin_t_80{
+    margin-top: 80px;
+}
 .margin_t_45{
     margin-top: 45px;
 }
@@ -331,7 +336,7 @@ p{
 .theam_title h2::after {
     position: absolute;
     content: "";
-    background-image: url(/image/heading_elips.png);
+    background-image: url(../image/heading_elips.png);
     height: 391px;
     width: 448px;
     top: -160px;
@@ -341,7 +346,7 @@ p{
 .theam_title h2::before {
     position: absolute;
     content: "";
-    background-image: url(/image/heading_img.png);
+    background-image: url(../image/heading_img.png);
     height: 61px;
     width: 348px;
     top: -3px;
@@ -353,7 +358,7 @@ p{
 .hero_section::after {
     position: absolute;
     content: "";
-    background-image: url(/image/bg_pattern_left.png);
+    background-image: url(../image/bg_pattern_left.png);
     height: 75px;
     width: 148px;
     top: 0px;
@@ -363,7 +368,7 @@ p{
 .hero_section::before{
     position: absolute;
     content: "";
-    background-image: url(/image/bg_pattern_right.png);
+    background-image: url(../image/bg_pattern_right.png);
     height: 71px;
     width: 154px;
     top: 95px;
@@ -377,7 +382,7 @@ p{
 .what_do_img::after{
     position: absolute;
     content: "";
-    background-image: url(/image/hover_elipse.png);
+    background-image: url(../image/hover_elipse.png);
     height: 236px;
     width: 222px;
     left: 145px;
@@ -441,7 +446,7 @@ p{
 }
 
 .choose_us{
-    background-image: url(/image/choose_us_bg.png);
+    background-image: url(../image/choose_us_bg.png);
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -520,7 +525,7 @@ p{
 /* Footer */
 
 .main_footer {
-    background-image: url(/image/Footer_bg.png);
+    background-image: url(../image/Footer_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 0;
@@ -591,7 +596,7 @@ p{
 .service_pettern::before {
     position: absolute;
     content: "";
-    background-image: url(/image/bg_pattern_right.png);
+    background-image: url(../image/bg_pattern_right.png);
     height: 71px;
     width: 154px;
     top: 100px;
@@ -600,7 +605,7 @@ p{
 .service_pettern::after {
     position: absolute;
     content: "";
-    background-image: url(/image/bg_pattern_left.png);
+    background-image: url(../image/bg_pattern_left.png);
     height: 75px;
     width: 148px;
     top: 0px;
@@ -613,7 +618,7 @@ p{
  .service_pettern-2::after{
     position: absolute;
     content: "";
-    background-image: url(/image/bg_pattern_left.png);
+    background-image: url(../image/bg_pattern_left.png);
     height: 75px;
     width: 148px;
     top: 0px;
@@ -622,7 +627,7 @@ p{
 .service_pettern-2::before {
     position: absolute;
     content: "";
-    background-image: url(/image/bg_pattern_right.png);
+    background-image: url(../image/bg_pattern_right.png);
     height: 71px;
     width: 154px;
     top: 0px;
@@ -635,7 +640,7 @@ p{
 .service_pettern-3::after{
     position: absolute;
     content: "";
-    background-image: url(/image/servise\ pattern-3.png);
+    background-image: url(../image/servise\ pattern-3.png);
     height: 149px;
     width: 176px;
     top: 150px;
@@ -644,7 +649,7 @@ p{
 .service_pettern-3::before {
     position: absolute;
     content: "";
-    background-image: url(/image/service_pattern-2.png);
+    background-image: url(../image/service_pattern-2.png);
     height: 149px;
     width: 176px;
     top: -40px;
@@ -662,7 +667,7 @@ p{
  .service_pettern-4::after{
     position: absolute;
     content: "";
-    background-image: url(/image/bg_pattern_left.png);
+    background-image: url(../image/bg_pattern_left.png);
     height: 75px;
     width: 148px;
     top: 0px;
@@ -671,7 +676,7 @@ p{
 .service_pettern-4::before {
     position: absolute;
     content: "";
-    background-image: url(/image/bg_pattern_right.png);
+    background-image: url(../image/bg_pattern_right.png);
     height: 71px;
     width: 154px;
     top: 165px;
@@ -685,20 +690,98 @@ p{
 }
 
 /* protfolio */
-.logo_bg{
-    width: 300px;
+.logo_bg {
     height: 200px;
     background: #030B0E;
     text-align: center;
-   
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.logo_bg img{
-    margin-top: 65px;
-}
-
 .logo_bg:hover{
-    width: 300px;
-    height: 200px;
+   
     background: #fff;
     text-align: center;
+    border: 2px solid transparent;
+    background: 
+    linear-gradient(251deg, #fff 0%, #fff 89.72%) padding-box,
+    linear-gradient(163deg, #009BFB 0%, #00FFD1 100%) border-box;
+
+    
 }
+
+.main_blog_date{
+    font-size: 18px;
+}
+.blog_info {
+    line-height: 28px;
+}
+
+.contact_info{
+    height: 200px;
+    background: #030B0E;
+    text-align: center;
+    display: flex;
+    align-items: center;
+   
+}
+.contact_txt{
+  padding: 30px;
+}
+
+/* contact form */
+
+.contact_us input[type=text], .contact_us select, .contact_us textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    margin: 16px 0px;
+    resize: vertical;
+    background-color: #000;
+    outline: none;
+    color: white;
+  }
+  .contact_us input[type=text]:focus, .contact_us select:focus, textarea:focus {
+    border: 1px solid transparent;
+    background: 
+    linear-gradient(251deg, #000 0%, #000 89.72%) padding-box,
+    linear-gradient(163deg, #009BFB 0%, #00FFD1 100%) border-box;
+    box-shadow: #00FFD1 0px 0px 8px;
+  }
+  .contact_info{
+    margin-bottom: 20px;
+  }
+  .contact_us input[type=text]::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder { /* Edge */
+    color: #FFFFFF;
+  }
+  
+  .contact_us input[type=text]:-ms-input-placeholder,
+  textarea:-ms-input-placeholder  { /* Internet Explorer 10-11 */
+    color: #FFFFFF;
+  }
+  
+  .contact_us input[type=text]::placeholder,
+  textarea::placeholder{
+    color: #FFFFFF;
+  }
+
+  .contect_btn button{
+    padding:  14px 58px;
+  }
+
+  .contect_elipse{
+    top: 0;
+    right: 0;
+  }
+
+  .contect_elipse-2{
+    bottom: 0;
+    right: 0;
+  }
+
+  .contect_elipse-3{
+    bottom: 0;
+    right: 0;
+  }

@@ -24,12 +24,15 @@
     }
     .main_footer {
         background-size: contain;
-}
+    }
+    .contact_bg h5 {
+        font-size: 20px;
+    }   
 
 .theam_title h2::before {
     position: absolute;
     content: "";
-    background-image: url(/image/heading_img.png);
+    background-image: url(../image/heading_img.png);
     height: 61px;
     width: 348px;
     top: -4px;
@@ -114,7 +117,8 @@
 
     /* nav */
     .nav_manue ul {
-        border-radius: 0px !important;
+       
+        border-color: transparent;
     }
 
     /* hero */
@@ -197,6 +201,13 @@
         font-size: 18px;
         line-height: 24px;
         margin-bottom: 10px;
+    }
+    .theam_title h2::after {
+        height: 289px;
+        width: 403px;
+        top: -160px;
+        left: -140px;
+        background-size: cover;
     }
 
 }
@@ -383,6 +394,23 @@
     .what_do_img img {
         height: 350px;
     }
+    .margin_t_200 {
+        margin-top: 130px;
+    }
+    .theam_title h2::after {
+        height: 256px;
+        width: 355px;
+        top: -133px;
+        left: -140px;
+        background-size: cover;
+    }
+    .margin_t_150 {
+        margin-top: 80px;
+    }
+    .nav_manue ul {
+        border-color: transparent;
+    }
+
 
 }
 
@@ -513,6 +541,16 @@
     padding: 10px;
     margin-bottom: 15px;
 }
+.margin_t_150 {
+    margin-top: 60px;
+}
+.margin_t_200 {
+    margin-top: 130px;
+}
+.nav_manue ul {
+    border-color: transparent;
+}
+
 
 }
 
@@ -583,7 +621,7 @@ p{
     .theam_title h2::before {
         position: absolute;
         content: "";
-        background-image: url(/image/heading_pettern-2.png);
+        background-image: url(../image/heading_pettern-2.png);
         height: 53px;
         width: 263px;
         top: -7px;
@@ -596,14 +634,28 @@ p{
    .theam_title h2::after {
     position: absolute;
     content: "";
-    background-image: url(/image/heading_elips.png);
+    background-image: url(../image/heading_elips.png);
     height: 227px;
    width: 338px;
    top: -133px;
    left: -135px;
    background-size: cover;
 }
-
+.margin_t_150 {
+    margin-top: 50px;
+}
+.margin_b_85 {
+    margin-bottom: 40px;
+}
+.margin_t_200{
+    margin-top: 100px;
+}
+.logo_bg img{
+    width: 135px;
+}
+.logo_bg{
+    height: 150px;
+}
 
 
   
@@ -624,7 +676,7 @@ p{
     .theam_title h2::after {
         position: absolute;
         content: "";
-        background-image: url(/image/heading_elips.png);
+        background-image: url(../image/heading_elips.png);
         height: 211px;
         width: 248px;
         top: -100px;
@@ -658,6 +710,17 @@ p{
         right: 6px;
         top: -9px;
     }
+.margin_t_130 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+}
+.contact_pattern img{
+    width: 110px;
+}
+.contact_txt h5{
+    font-size: 18px;
+}
    
 
 }
