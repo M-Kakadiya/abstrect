@@ -19,6 +19,10 @@ body{
     background-color: #070F12;
    background-attachment: scroll;
 }
+/* logo main */
+    .navbar a img{
+        height: 60px;
+    }
 
 /* Custom CSS */
 
@@ -43,8 +47,8 @@ a:hover{
 .navbar .navbar-nav .nav-item::after {
     position: absolute;
     bottom: 0;
-    left: 0;
     right: 0;
+    left: 0;
     margin: auto;
     background: var(--cyber-prime, linear-gradient(163deg, #009BFB 0%, #00FFD1 100%));
     width: 0%;
@@ -201,7 +205,10 @@ p{
     background-color: #000;
 }
 .main_bg{
-    background: #070F12;
+    background-color: #070F12;
+}
+.footer_bg{
+    background-color: #030B0E;
 }
 
 
@@ -241,7 +248,7 @@ p{
 
 .sub_titale{
     font-weight: normal;
-    max-width: 1000px;
+    max-width: 990px;
     margin: 0 auto;
 }
 
@@ -270,8 +277,8 @@ p{
 /* margin */
 
 .margin_t_130{
-    margin-top: 130px;
-    margin-bottom: 132px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .margin_t_90{
@@ -379,6 +386,7 @@ p{
 .what_do_img img{
     height: 447px;
     opacity: 0.8;
+    transition: all 0.5s;
 }
 .what_do_img::after{
     position: absolute;
@@ -386,10 +394,16 @@ p{
     background-image: url(../image/hover_elipse.png);
     height: 236px;
     width: 222px;
-    left: 145px;
+    right: 0;
+    transition: all 0.5s;
+    opacity: 0;
 }
-
-
+.what_do_img:hover img{
+    opacity: 0;
+}
+.what_do_img:hover:after{
+    opacity: 1;
+}
 
 .wht_do_tex{
    max-width: 300px;
@@ -504,7 +518,9 @@ p{
     top: 50px;
     right: 0;
 }
-
+.blog_bg img{
+    margin-top: 20px;
+} 
 .blog_elipse-2{
    bottom: 0;
     left: 0;
@@ -524,7 +540,9 @@ p{
 }
 
 /* Footer */
-
+.logo_block a img{
+    height: 60px;
+}
 .main_footer {
     background-image: url(../image/Footer_bg.png);
     background-repeat: no-repeat;
@@ -710,6 +728,9 @@ p{
 
     
 }
+.logo_bg img{
+    height: 80px;
+}
 
 .main_blog_date{
     font-size: 18px;
@@ -785,4 +806,9 @@ p{
   .contect_elipse-3{
     bottom: 0;
     right: 0;
+  }
+
+  .main_address p{
+    max-width: 300px;
+    
   }

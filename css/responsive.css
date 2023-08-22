@@ -1,14 +1,18 @@
 
 
 @media only screen and (min-width:1400px) and (max-width:1549px) {
-
+    
 
 }
 
 
 @media only screen and (min-width:1200px) and (max-width:1399px) {
-    
-
+    .wht_do_tex p{
+        font-weight: 500;
+    }
+    .main_footer{
+        background-size: contain;
+    }
 }
 
 
@@ -76,6 +80,9 @@
 .application_content h2 {
     max-width: 800px;
 }
+.wht_do_tex p{
+    font-weight: 500;
+}
 
 }
 
@@ -117,8 +124,7 @@
 
     /* nav */
     .nav_manue ul {
-       
-        border-color: transparent;
+        background-color: transparent;
     }
 
     /* hero */
@@ -209,6 +215,20 @@
         left: -140px;
         background-size: cover;
     }
+    .navbar .navbar-nav .nav-item::after {
+   
+        margin: 0px;
+    }
+    .navbar .navbar-nav .nav-item:hover::after {
+        width: 15%;
+      }
+      .wht_do_tex p{
+        font-weight: 500;
+    }
+    .main_footer{
+        background-size: contain;
+    }
+    
 
 }
 
@@ -408,9 +428,22 @@
         margin-top: 80px;
     }
     .nav_manue ul {
-        border-color: transparent;
+        background-color: transparent;
     }
-
+    .navbar .navbar-nav .nav-item::after {
+   
+        margin: 0px;
+    }
+    .navbar .navbar-nav .nav-item:hover::after {
+        width: 20%;
+      }
+      .wht_do_tex p{
+        font-weight: 500;
+    }
+    .inner_menu ul, .copyright_sec ul {
+        display: block;
+        text-align: center;
+    }
 
 }
 
@@ -547,8 +580,26 @@
 .margin_t_200 {
     margin-top: 130px;
 }
-.nav_manue ul {
-    border-color: transparent;
+.black_bg{
+    background-color: transparent;
+}
+.navbar .navbar-nav .nav-item::after {
+   
+    margin: 0px;
+}
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 30%;
+  }
+  .navbar .navbar-nav .nav-item::after {
+   
+    margin: 0px;
+}
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 30%;
+  }
+  .wht_do_tex p{
+    font-size: 16px;
+    font-weight: 500;
 }
 
 
@@ -656,8 +707,22 @@ p{
 .logo_bg{
     height: 150px;
 }
-
-
+.contact_txt{
+   padding: 22px;
+}
+.contact_txt h5{
+    font-size: 16px;
+}
+.navbar .navbar-nav .nav-item::after {
+   
+    margin: 0px;
+}
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 30%;
+  }
+  .wht_do_tex p{
+    font-weight: 500;
+}
   
 
 }
@@ -721,6 +786,15 @@ p{
 .contact_txt h5{
     font-size: 18px;
 }
+.navbar .navbar-nav .nav-item::after {
    
+    margin: 0px;
+}
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 30%;
+  }
+  .wht_do_tex p{
+    font-weight: 500;
+}
 
 }
