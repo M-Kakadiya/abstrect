@@ -13,6 +13,11 @@
     .main_footer{
         background-size: contain;
     }
+    .theam_title h2::before {
+     
+        top: 0px;
+        right: -180px;
+    }
 }
 
 
@@ -45,19 +50,19 @@
 .choose_us_box {
     width: 185px;
     height: 189px;
-    left: -3px;
+    left: -7px;
     top: 34px;
 }
 .choose_us_box-2 {
     width: 185px;
     height: 189px;  
     left: 366px;
-    top: -18px;
+    top: -25px;
 }
 .choose_us_box-3 {
     width: 185px;
     height: 189px;
-    right: 0px;
+    right: -5px;
     top: 44px;
 }
 
@@ -82,6 +87,9 @@
 }
 .wht_do_tex p{
     font-weight: 500;
+}
+.logo_bg img{
+    height: 50px;
 }
 
 }
@@ -247,8 +255,18 @@
     .choose_us_box-3 {
         right: 142px;
     } */
-
-   
+    .navbar>.container{
+    flex-direction: row-reverse;
+    }
+    .nav_manue ul{
+        padding-left:0 !important;
+    }
+    .navbar .navbar-nav .nav-item {
+        padding: 15px 0;
+    }
+    .navbar {
+        padding: 30px 15px;
+    }
 
 }
 
@@ -308,19 +326,19 @@
         width: 125px;
         height: 150px;
         left: 50px;
-        top: -35px;
+        top: -39px;
     }
     .choose_us_box-2 {
         width: 125px;
         height: 150px;
         left: 192px;
-        top: -69px;
+        top: -73px;
     }
     .choose_us_box-3 {
         width: 125px;
         height: 150px;
         right: 63px;
-        top: -3px;
+        top: -7px;
     }
 
     /* client says */
@@ -443,6 +461,9 @@
     .inner_menu ul, .copyright_sec ul {
         display: block;
         text-align: center;
+    }
+    .logo_bg img{
+        height: 56px;
     }
 
 }
@@ -601,7 +622,78 @@
     font-size: 16px;
     font-weight: 500;
 }
+.margin_b_90 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.service_pettern::after {
+    position: absolute;
+    content: "";
+    background-image: url(../image/service_responsive-2.png);
+    height: 87px;
+    width: 106px;
+    top: -85px;
+    left: 0px;
+}
+.service_pettern::before {
+    position: absolute;
+    content: "";
+    background-image: url(../image/service_responsive_img.png);
+    height: 93px;
+    width: 112px;
+    top: 24px;
+    right: 0px;
+}
 
+.service_pettern-2::after {
+    position: absolute;
+    content: "";
+    background-image: url(../image/service_responsive-2.png);
+    height: 87px;
+    width: 106px;
+    top: 95px;
+    left: 0px;
+}
+.service_pettern-2::before {
+   
+    background-image: url(../image/service_responsive_img.png);
+    height: 93px;
+    width: 112px;
+    top: -55px;
+    right: 0px;
+}
+.service_pettern-3::after {
+  
+    background-image: url(../image/servise_res-4.png);
+    height: 87px;
+    width: 106px;
+   top: 207px;
+    left: 0px;
+}
+.service_pettern-3::before {
+   
+    background-image: url(../image/service_res_3.png);
+    height: 93px;
+    width: 112px;
+    top: -86px;
+    right: 0px;
+}
+.service_pettern-4::after {
+   
+    background-image: url(../image/service_responsive-2.png);
+    height: 87px;
+    width: 106px;
+    top: -84px;
+    left: 0px;
+}
+.service_pettern-4::before {
+  
+    background-image: url(../image/service_responsive_img.png);
+    height: 93px;
+    width: 112px;
+    top: 152px;
+    right: 0px;
+}
 
 }
 
@@ -638,7 +730,7 @@ p{
         width: 100px;
         height: 150px;
         left: 30px;
-        top: -34px;
+        top: -35px;
         padding: 10px;
     }
     .choose_us_box-2 {
@@ -659,14 +751,21 @@ p{
         margin-left: 0px;
     }
     .inner_menu ul, .copyright_sec ul {
-        display: block; 
+        display: flex; 
         text-align: center;
+    }
+    .inner_menu ul li {
+        padding: 0 10px;
+    }
+    .copyright_sec ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .copyright_sec ul li:last-child {
+        margin-top: 10px;
     }
     .black_bg{
         background-color: transparent;
-    }
-    .contect_us_btn button{
-        display: none;
     }
 
     .theam_title h2::before {
@@ -723,7 +822,17 @@ p{
   .wht_do_tex p{
     font-weight: 500;
 }
-  
+.client_tab_txt h5 {
+    width: 165px;
+}
+.margin_b_90 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.it_content h2{
+    line-height: 25px;
+}
 
 }
 
@@ -795,6 +904,101 @@ p{
   }
   .wht_do_tex p{
     font-weight: 500;
+}
+.margin_b_90 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+}
+
+@media (max-width: 320px) {
+
+.client_tab_txt h5 {
+    width: 115px;
+    font-size: 16px;
+}
+.accordient_star svg{
+    height: 15px;
+}
+.fs_14 {
+    font-size: 12px;
+}
+.margin_b_90 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.service_pettern::after {
+    position: absolute;
+    content: "";
+    background-image: url(../image/service_responsive-2.png);
+    height: 87px;
+    width: 106px;
+    top: -85px;
+    left: 0px;
+}
+.service_pettern::before {
+    position: absolute;
+    content: "";
+    background-image: url(../image/service_responsive_img.png);
+    height: 93px;
+    width: 112px;
+    top: 24px;
+    right: 0px;
+}
+
+.service_pettern-2::after {
+    position: absolute;
+    content: "";
+    background-image: url(../image/service_responsive-2.png);
+    height: 87px;
+    width: 106px;
+    top: 95px;
+    left: 0px;
+}
+.service_pettern-2::before {
+   
+    background-image: url(../image/service_responsive_img.png);
+    height: 93px;
+    width: 112px;
+    top: -55px;
+    right: 0px;
+}
+.service_pettern-3::after {
+  
+    background-image: url(../image/servise_res-4.png);
+    height: 87px;
+    width: 106px;
+   top: 207px;
+    left: 0px;
+}
+.service_pettern-3::before {
+   
+    background-image: url(../image/service_res_3.png);
+    height: 93px;
+    width: 112px;
+    top: -86px;
+    right: 0px;
+}
+.service_pettern-4::after {
+   
+    background-image: url(../image/service_responsive-2.png);
+    height: 87px;
+    width: 106px;
+    top: -84px;
+    left: 0px;
+}
+.service_pettern-4::before {
+  
+    background-image: url(../image/service_responsive_img.png);
+    height: 93px;
+    width: 112px;
+    top: 152px;
+    right: 0px;
+}
+.it_content h2{
+    line-height: 25px;
 }
 
 }

@@ -212,6 +212,7 @@ p{
 }
 
 
+
 /* border color */
 
 .border_solid {
@@ -357,7 +358,7 @@ p{
     background-image: url(../image/heading_img.png);
     height: 61px;
     width: 348px;
-    top: -3px;
+    top: 0px;
     right: -180px;
 }
 
@@ -385,7 +386,7 @@ p{
 
 .what_do_img img{
     height: 447px;
-    opacity: 0.8;
+    opacity: 0.5;
     transition: all 0.5s;
 }
 .what_do_img::after{
@@ -404,24 +405,33 @@ p{
 .what_do_img:hover:after{
     opacity: 1;
 }
+.what_do_img:hover{
 
+}
 .wht_do_tex{
    max-width: 300px;
     bottom: 0;
 }
-
+.what_do_img:hover {
+    border-image: none;
+}
 /* whay choose us */
 
 .choose_us{
     display: flex;
     justify-content: center;
 }
-
+.choose_us_box,.choose_us_box-2,.choose_us_box-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .choose_us_box{
     width: 226px;
     height: 188px;
     background: #000;
-    left: 62px;
+    left: 57px;
     top: 45px;
 }
 
@@ -435,13 +445,13 @@ p{
     height: 188px;
     background: #000;
     left: 448px;
-    top: -18px;
+    top: -24px;
 }
 .choose_us_box-3{
     width: 226px;
     height: 188px;
     background: #000;
-    right: 64px;
+    right: 59px;
     top: 60px;
 }
 
@@ -501,10 +511,18 @@ p{
     height: 100px;
     position: relative;
     margin-bottom: 30px;
+    border-bottom: 3PX solid transparent;
+}
+
+.client_tab .nav-link.active{
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(0.25turn, #00FFD1, #00FFD1, #009BFB);
+    border-image-slice: 1;
+
 }
 
 .client_tab_txt h5 {
-    width: 365px;
+    width: 355px;
 }
 
 .tab-pane h4{
@@ -538,7 +556,15 @@ p{
     linear-gradient(251deg, #000 0%, #000 89.72%) padding-box,
     linear-gradient(163deg, #009BFB 0%, #00FFD1 100%) border-box;
 }
-
+.main_blog_bg:hover{
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(0.25turn, #00FFD1, #00FFD1, #009BFB);
+    border-image-slice: 1;
+   
+}
+.main_blog_bg{
+    border-bottom: 3px solid transparent;
+}
 /* Footer */
 .logo_block a img{
     height: 60px;
@@ -599,7 +625,7 @@ p{
 .it_content h2{
     max-width: 905px;
     margin: 0 auto;
-    line-height: 55.8px;
+    line-height: 50px;
     font-weight: 500;
 
 }
@@ -711,7 +737,6 @@ p{
 /* protfolio */
 .logo_bg {
     height: 200px;
-    background: #030B0E;
     text-align: center;
     display: flex;
     align-items: center;
@@ -729,7 +754,7 @@ p{
     
 }
 .logo_bg img{
-    height: 80px;
+    height: 65px;
 }
 
 .main_blog_date{
@@ -749,6 +774,7 @@ p{
 }
 .contact_txt{
   padding: 30px;
+  text-align: left;
 }
 
 /* contact form */
@@ -758,7 +784,7 @@ p{
     padding: 16px;
     border: 1px solid transparent;
     box-sizing: border-box;
-    margin: 16px 0px;
+    margin: 10px 0px;
     resize: vertical;
     background-color: #000;
     outline: none;
@@ -812,3 +838,9 @@ p{
     max-width: 300px;
     
   }
+
+.clint_elips{
+    top: -162px;
+    right: -13px;
+}
+
