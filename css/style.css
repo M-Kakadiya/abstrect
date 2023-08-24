@@ -233,8 +233,6 @@ p{
 
 .main_titale{
     font-family: "Gilroy-SemiBold";
-    max-width: 1100px;
-    margin: auto;
 }
 
 .main_heading{
@@ -415,6 +413,23 @@ p{
 .what_do_img:hover {
     border-image: none;
 }
+.main_hero_contaent{
+    overflow: hidden;
+}
+.main_titale{
+    width: 100%;
+}
+.main_titale h1{
+    animation:fadeIn ease 3s;
+}
+@keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
 /* whay choose us */
 
 .choose_us{
