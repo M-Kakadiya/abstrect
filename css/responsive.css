@@ -1012,5 +1012,29 @@ p{
 .it_content h2{
     line-height: 25px;
 }
-
+.choose_us img{
+    width: 255px;
+}
+.choose_us_box h4, .choose_us_box-2 h4, .choose_us_box-3 h4{
+    font-size: 12px;
+}
+.choose_us_box {
+    width: 72px;
+    height: 115px;
+    left: 1px;
+    top: -24px;
+}
+.choose_us_box-2 {
+    width: 72px;
+    height: 115px;
+    left: 0;
+    top: -54px;
+    right: 0;
+}
+.choose_us_box-3 {
+    width: 72px;
+    height: 115px;
+    right: 15px;
+    top: 0px;
+}
 }
